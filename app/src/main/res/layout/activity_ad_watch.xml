@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Watch Ad Button -->
+    <Button
+        android:id="@+id/watch_ad_button"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/button_background"
+        android:padding="12dp"
+        android:text="Loading ....."
+        android:textSize="16sp" />
+
+    <!-- Progress Bar (for countdown or ad loading) -->
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="20dp" />
+
+    <!-- Text to show when points are credited -->
+    <TextView
+        android:id="@+id/points_credited_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:visibility="gone" />
+</LinearLayout>

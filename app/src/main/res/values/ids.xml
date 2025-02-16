@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="upi_edit_text" type="id" />
+    <item name="bank_account_edit_text" type="id" />
+    <item name="ifsc_edit_text" type="id" />
+    <item name="paypal_edit_text" type="id" />
+    <item name="amazon_pay_edit_text" type="id" />
+    <item name="payment_details_container" type="id" />
+    <item name="balance_text_view" type="id" />
+    <item name="points_edit_text" type="id" />
+    <item name="reward_type_spinner" type="id" />
+    <item name="redeem_button" type="id" />
+    <item name="profileButton" type="id" />
+    <item name="cardViewQuestion" type="id" />
+    <item name="tv_user_name" type="id" />
+    <item name="tv_comment_text" type="id" />
+    <item name="tv_comment_updated_at" type="id" />
+    <item name="tabLayout" type="id" />
+    <item name="viewPager" type="id" />
+    <item name="spinner_category" type="id" />
+    <item name="recycler_view_questions" type="id" />
+</resources>

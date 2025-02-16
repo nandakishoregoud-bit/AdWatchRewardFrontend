@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCommentText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comment Text"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvCommentUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="By: User"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/tvCommentUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="By: UserName"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/tvCommentCreatedAt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Created At: 2025-02-11"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/tvCommentReason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reason: Inappropriate"
+            android:textSize="12sp"
+            android:textColor="@android:color/holo_red_dark"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

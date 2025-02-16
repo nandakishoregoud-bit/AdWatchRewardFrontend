@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyAndroidApp"
+        tools:targetApi="31" >
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3028735478368628~6672314621"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyAndroidApp" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".AdWatchActivity"
+            android:label="watch"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+
+        <activity android:name =".AdminActivity"
+            android:label="admin"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+
+        <activity android:name =".AdminDashboardActivity"
+            android:label="admindashboard"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+
+        <activity android:name=".FlaggedQuestionsActivity"
+            android:label="flaggedQuestions"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+
+        <activity android:name=".FlaggedCommentsActivity"
+            android:label="flaggedComments"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+
+        <activity android:name=".CommentFlagReasonsActivity"
+            android:label="CommentReson"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+
+
+        <activity android:name=".activities.BlockedUsersActivity"
+            android:label="Blocked users"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+
+
+        <activity android:name=".FlagReasonsActivity"
+            android:label="flag Reason"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+            android:label="Login">
+        </activity>
+        <activity android:name=".WelcomeActivity"
+            android:label="Welcome"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+
+        <activity android:name=".WalletActivity"
+            android:label="wallet"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+
+        <activity android:name=".UserProfileActivity"
+            android:label="profile"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+
+        <activity android:name=".QuestionDetailsActivity"
+            android:label="QuestionsDetails"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+
+
+        <activity
+            android:name=".QuestionsActivity"
+            android:label="Questions"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+
+        <activity
+            android:name=".PostQuestionActivity"
+            android:label="NewQuestion"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+
+        <activity
+            android:name=".UserQuestionsActivity"
+            android:label="AllQuestion"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Register"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+
+        <activity android:name=".EmptyScreenActivity"
+            android:label="empty"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+
+
+        <activity android:name=".PopularQuestionsActivity"
+            android:label="PopularQuestions"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+            />
+
+    </application>
+
+</manifest>

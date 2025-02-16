@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">ads</string>
+    <string name="login" >login</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="don_t_have_an_account_register">Don\'t have an account? Register</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="register">Register</string>
+    <string name="welcome_user">Welcome User!</string>
+    <string name="go_to_ad_watch">Go to Ad Watch</string>
+    <string name="welcome">Welcome!</string>
+    <string-array name="reward_types">
+        <item>UPI</item>
+        <item>BANK TRANSFER</item>
+        <item>PAYPAL</item>
+        <item>AMAZON PAY</item>
+    </string-array>
+
+    <string name="app_description">
+        AdWatch Rewards – Earn Points by Watching Ads!\n\n
+        💰 Watch Ads and Earn Rewards! 💰\n
+        AdWatch Rewards is a fun and easy way to earn points by watching video ads.\n
+        Simply watch ads, collect points, and redeem them for real rewards!\n\n
+
+        ✨ How It Works?\n
+        1️⃣ Watch Ads – Earn points by watching video ads.\n
+        2️⃣ Ad Limits and Gaps –\n
+        🔹 Minimum 5-second gap between ads.\n
+        🔹 Maximum 50 ads per day.\n
+        3️⃣ Earn Points –\n
+        🔹 30-sec ad = 0.001 points.\n
+        4️⃣ Redeem Rewards –\n
+        🔹 Minimum 1$ required to redeem.\n
+        5️⃣ Payout Time –\n
+        🔹 Withdrawals take a minimum of 4-7 Working days to process and be credited.\n
+        6️⃣ Safe and Secure – Fraud prevention measures are in place.\n\n
+
+        🎯 Why Choose AdWatch Rewards?\n
+        ✅ No hidden conditions – simple and transparent rewards.\n
+        ✅ Easy tracking – see your daily ads watched and points earned.\n
+        ✅ Fast redemptions – payouts processed in just 7 days.\n
+        ✅ Engaging community – ask questions, interact, and learn!\n\n
+
+        📜 Community Guidelines\n
+        ✔️ Respect others – No hate speech, harassment, or spamming.\n
+        ✔️ No fraudulent activity – Fake ad views or multiple accounts = Suspension.\n
+        ✔️ Follow Play Store policies – Content must be appropriate.\n
+        ✔️ Report issues – Use the flagging system.\n\n
+
+        📩 Contact Us\n
+        📧 Support Email: yvvnandak@example.com\n
+        🌐 Website: www.example.com\n
+        📌 Follow us for updates!\n\n
+
+        ⚠️ Important Notice\n
+        🚨 This app does not offer real money directly. Rewards are converted based on points.\n
+        Withdrawals take a minimum of 7 days.\n
+        Fraudulent activities = Account suspension.\n
+    </string>
+
+
+</resources>

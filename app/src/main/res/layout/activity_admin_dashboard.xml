@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tv_admin_dashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Dashboard"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btn_manage_users"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manage Users"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/btn_flagged_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flagged Questions"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/btn_flagged_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flagged Comments"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/btnBlockedUsers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blocked users"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/btnquestionsbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Questions"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/btnpopularquestionsbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="popular quesions"
+        android:padding="16dp"/>
+
+
+</LinearLayout>

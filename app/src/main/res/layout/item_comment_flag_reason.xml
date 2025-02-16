@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvCommentFlagReason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reason: Inappropriate"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvCommentFlaggedById"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flagged By: 123"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tvCommentFlaggedBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flagged By: User123"
+        android:textSize="14sp"/>
+</LinearLayout>

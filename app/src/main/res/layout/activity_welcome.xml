@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+
+
+    <!-- Welcome message -->
+    <TextView
+        android:id="@+id/welcome_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+
+
+
+
+
+    <!-- Navigate to AdWatch button -->
+    <!--<Button
+        android:id="@+id/ad_watch_button"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:text="@string/go_to_ad_watch"
+        android:textSize="16sp" />-->
+
+    <!-- New button to navigate to Wallet Activity -->
+    <Button
+        android:id="@+id/wallet_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Wallet"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_background"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/profile_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to profile"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_background"/>
+
+    <Button
+        android:id="@+id/questions_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Questions"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_background"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_user_questions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Questions"
+        android:layout_gravity="center"
+        android:padding="16sp"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/popular_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Popular questions"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_background"/>
+
+</LinearLayout>
